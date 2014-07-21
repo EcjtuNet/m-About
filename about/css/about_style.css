@@ -1,0 +1,50 @@
+.nav li ul{
+		float:left;
+		display:block;
+		width:2500%;
+		left:0;
+		top:26px;
+		background-color:#c2d6e0;
+		height:26px;
+		z-index:2;
+	}
+
+	.nav li li{
+		list-style-type:none;
+		position:relative;
+	}
+	.nav li li a{
+		text-decoration:none;
+		display:block;
+		color:#363636;
+		font:bold 12px "微软雅黑";
+	}
+/*content*/
+		.container p{
+			font:bold 10px "微软雅黑";
+			line-height:22px;
+			color:#757575;
+		}
+		.link{
+			clear:left;
+			width:165px;
+			height:45px;
+			margin:0 auto;
+			margin-top:21px;
+			background-color:#418db7;
+			border-radius:5px;
+			-moz-border-radius:5px; 
+			-webkit-border-radius:5px; 
+			-ms-border-radius:5px;
+			font:bold 22px "微软雅黑";
+		}
+			.link a{
+				display:block;
+				text-decoration:none;
+				color:#fff;
+				line-height:45px;
+				text-align:center;
+			}
+
+
+

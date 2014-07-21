@@ -1,0 +1,46 @@
+.container{
+	width:96%;
+}
+.container table{
+	margin-top:15px;
+	color:#757575;
+	border-collapse: collapse;
+	width:100%
+
+}
+	.container table th{
+		font:bold 12px "微软雅黑";
+		color:#363636;
+		border-bottom:2px solid #fff;
+		text-align:center;
+
+	}
+	.container table th:first-child{
+		text-align:left;
+	}
+	.container table tr{
+		font:bold 10px "微软雅黑";
+		line-height:18px;
+		max-height:30px;
+		text-align:center;
+	}
+	.container table tr:last-child{
+		text-align:left;
+	}
+	.container table td{
+		border-bottom:5px solid #fff;
+		width:20%;
+	}
+	.container table td:first-child{
+		text-align:left;
+	}
+.container h2{
+	margin-top:10px;
+	font:bold 12px "微软雅黑";
+	color:#363636;
+}
+.container p{
+	font:bold 10px "微软雅黑";
+	color:#757575;
+	line-height:15px;
+}
