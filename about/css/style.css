@@ -45,7 +45,7 @@
 .nav{
 	font:500 15px "微软雅黑";
 	margin-top:15px;
-	overflow:hidden;
+
 }	
 	.nav ul{
 		float:left;
@@ -56,7 +56,6 @@
 		list-style-type:none;
 		position:relative;
 		background-color:#69a4c5;
-		max-height:48px;
 		width:20%;
 	}
 	.nav ul li a{
@@ -73,17 +72,14 @@
 		background-color:#ffbc39;
 	}
 
-	.nav li ul {
-
-	}
-
 /*content*/
 .content{
+	position:relative;
+	float:left;
 	width:100%;
 	margin:0 auto;
-	margin-top:6px;
+	margin-top:32px;
 	overflow:hidden;
-	position:relative;
 }
 	.tittleArea{
 		margin-top:8px;

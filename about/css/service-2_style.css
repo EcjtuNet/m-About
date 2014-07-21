@@ -1,3 +1,29 @@
+.nav ul ul{
+		position:absolute;
+		float:left;
+		display:block;
+		width:500%;
+		height:26px;
+		left:-192px;
+		top:44px;
+		background-color:#c2d6e0;
+	}
+	.nav li ul li{
+		list-style-type:none;
+		position:relative;
+		width:50%;
+		background-color:#c2d6e0;	
+	}
+	.nav li li a{
+		text-decoration:none;
+		display:block;
+		color:#363636;
+		font:bold 12px "微软雅黑";
+		padding:0.3em;
+		background-color:#c2d6e0;
+	}
+
+/*content*/
 .container{
 	width:96%;
 }
@@ -20,7 +46,7 @@
 	}
 	.container table tr{
 		font:bold 10px "微软雅黑";
-		line-height:18px;
+		line-height:16px;
 		max-height:30px;
 		text-align:center;
 	}

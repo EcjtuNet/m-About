@@ -1,23 +1,24 @@
-.nav li ul{
+.nav ul ul{
+		position:absolute;
 		float:left;
 		display:block;
-		width:2500%;
-		left:0;
-		top:26px;
-		background-color:#c2d6e0;
+		width:500%;
 		height:26px;
-		z-index:2;
+		left:0;
+		top:44px;
+		background-color:#c2d6e0;
 	}
-
-	.nav li li{
+	.nav li ul li{
 		list-style-type:none;
 		position:relative;
+		width:100%;	
 	}
 	.nav li li a{
 		text-decoration:none;
 		display:block;
 		color:#363636;
 		font:bold 12px "微软雅黑";
+		background-color:#c2d6e0;
 	}
 /*content*/
 		.container p{

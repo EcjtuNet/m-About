@@ -1,3 +1,28 @@
+.nav ul ul{
+		position:absolute;
+		float:left;
+		display:block;
+		width:500%;
+		height:26px;
+		left:-64px;
+		top:44px;
+		background-color:#c2d6e0;
+	}
+	.nav li ul li{
+		list-style-type:none;
+		position:relative;
+		width:25%;	
+	}
+	.nav li li a{
+		text-decoration:none;
+		display:block;
+		color:#363636;
+		font:bold 12px "微软雅黑";
+		padding:0.3em;
+		background-color:#c2d6e0;
+	}
+	
+/*content*/
 .container table{
 	margin:0 auto;
 	margin-top:16px;
